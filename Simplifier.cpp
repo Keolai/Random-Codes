@@ -7,14 +7,14 @@
 
 int main() {
 // gets rid of vowels
-	std::cout << "Welcome to simplifier!\n ";
+	std::cout << "Welcome to simplifier!\n";
 
 	int y=0;
 	int n=0;
 	int d;
 
 	while (n <1) {
-		std::cout << "Please enter the string that you would like to transform (no spaces or capitals)\n ";
+		std::cout << "Please enter the string that you would like to transform (no spaces or capitals)\n";
 		std::string words;
 		std::cin >> words;
 
@@ -62,7 +62,7 @@ int main() {
 			words.erase(std::remove(words.begin(),words.end(), 'w'), words.end());
 		}
 		if (countr > 1) {
-			words.erase(std::remove(words.begin(),words.end(), 'r'), words.end()); //error
+			words.erase(std::remove(words.begin(),words.end(), 'r'), words.end()); //error FIXED 
 		}
 		if (countt > 1) {
 			words.erase(std::remove(words.begin(),words.end(), 't'), words.end());
