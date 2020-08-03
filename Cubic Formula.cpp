@@ -43,7 +43,7 @@ int main(){
 
 		//components to each solution
 
-		float comp1= ((2*bc) - (9*a*b*c) + (27*as*d)) * ((2*bc) - (9*a*b*c) + (27*as*d)); // (2b^3-9abc=27a^2d)^2
+		float comp1= ((2*bc) - (9*a*b*c) + (27*as*d)) * ((2*bc) - (9*a*b*c) + (27*as*d)); // (2b^3-9abc+27a^2d)^2
 		float comp2= (bs - (3*a*c)) * (bs - (3*a*c)) * (bs - (3*a*c)); // (b^2-3ac)^3
 		float comp3= (2*bc) - (9*a*b*c) + (27*as*d); 
 		float comp4= sqrt(comp1 - (4 * comp2)); 
