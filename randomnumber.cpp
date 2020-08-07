@@ -29,6 +29,8 @@ std::cout << "Welcome to the random number generator\n";
 		std::cin >> n;
 
 		r3= (r2-r1) + 1;
+		
+		std::cout << "Your numbers are:\n"; 
 
 		while (n>0){
 
