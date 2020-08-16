@@ -17,8 +17,7 @@ std::cin >> numb;
 
 int begnumb; 
 int i = 2;
-int math; 
-int posnumb; 
+int math;  
 
 begnumb = numb; 
 
@@ -34,7 +33,6 @@ while (i != begnumb) {
         }
     
 }
-
 
 factors.push_back(begnumb); 
 
