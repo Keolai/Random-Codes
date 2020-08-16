@@ -2,6 +2,8 @@
 #include <vector>
 #include <string> 
 
+//this program finds all of the possible factors of a given number
+
 using namespace std;
 
 int main(){ 
