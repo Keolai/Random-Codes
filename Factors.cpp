@@ -3,6 +3,8 @@
 #include <string> 
 #include <chrono> 
 
+//this program finds all the possible factors of a number (NEEDS C++11 SUPPORT TO BE COMPILED) 
+
 using namespace std;
 using namespace std::chrono; 
 
