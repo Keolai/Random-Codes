@@ -30,6 +30,8 @@ double posnumb;
 
 begnumb = numb; 
 
+std::cout << "[OKAY...]\nCalculating...\n"; 
+
 auto start = high_resolution_clock::now(); 
 
 while (i != begnumb) {
@@ -66,5 +68,7 @@ std::cout << "Would you like to factor another number?\n""(1-yes and 2-no)\n";
 	}
 
 }
+
+std::cout << "Terminating process...\n"; 
 
 } 
