@@ -80,10 +80,5 @@ int main(){
 		}
 
 	}
+std::cout << "Terminating process...\n"; 
 }
-
-
-
-
-
-
