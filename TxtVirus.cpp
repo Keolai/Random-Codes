@@ -29,7 +29,7 @@ int x=100;  //change number for more (or less) files created
 
 	while(x>0){ 
 	
-	int random=rand() % 9 + 2; 
+	int random=rand() % 11 + 2; 
 	std::string filename; 
 	switch(random) {
 
@@ -64,7 +64,7 @@ int x=100;  //change number for more (or less) files created
 			filename = "thank you"; 
 
 	}
-	int random2=rand() % 9 +1; 
+	int random2=rand() % 10 +1; 
 	std::string message; 
 	switch(random2){
 
